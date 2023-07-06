@@ -1,0 +1,64 @@
+
+{
+  "projects": [
+    {
+      "date": "22/may/2023",
+      "title": "ECOMMERCE PROJECT",
+      "description": "This is an ecommerce project with products and their categories and add to cart functionality and finally payment gateway using stripe Strapi for Backend and React for frontend.",
+      "url": "https://drive.google.com/drive/u/0/folders/1VyBhZXDDBsQWp4IfWQ0HaEEzf4dowOtZ",
+      "imgSrc": "https://www.intellectoutsource.com/blog/images/how-attractive-templates-are-helpful-for-ecommerce-business.jpg",
+      "git":"https://github.com/Subbu1592/REACT_ECOMMERCE_PROJECT"
+    },
+
+    {
+      "date": "5/June/2023",
+      "title": "TRAVEL ADVISOR",
+      "description": "This is a Travel Advisor project which includes Geo Location mapping Fetching Hotel,Restaurannt and Places using Rapid API.",
+      "url": "https://travel-advisor-azure.vercel.app/",
+      "imgSrc": "https://i.ytimg.com/vi/UKdQjQX1Pko/maxresdefault.jpg",
+      "git":"https://github.com/Subbu1592/TRAVEL_ADVISOR"
+    },
+    {
+      "date": "10/june/2023",
+      "title": "SOCIAL MEDIA UI",
+      "description": "This is a Social Media UI Project with Lght and Dark theme Mode only the UI Design using react and SCSS",
+      "url": "https://social-project-one.vercel.app/",
+      "imgSrc": "https://i.ytimg.com/vi/pFHyZvVxce0/maxresdefault.jpg",
+      "git":"https://github.com/Subbu1592/SOCIAL_PROJECT"
+    },
+
+    {
+      "date": "16/june/2023",
+      "title": "REACT VIDEO CHAT",
+      "description": "This is a Video chatting project using WebRTC and Socket.io and React as UI",
+      "url": "https://client-psi-kohl.vercel.app/",
+      "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPbhHPguqFmWi4ANRKeyeEeTgNs98S5qoqQQ&usqp=CAU",
+      "git":"https://github.com/Subbu1592/VIDEO_CHAT_PROJECT"
+    },
+    {
+      "date": "20/june/2023",
+      "title": "URL SUMMARY PROJECT ",
+      "description": "This is a URL Summary Project using Shazam Rapid Api with Chat Gpt-4.",
+      "url": "https://chat-gpt-kohl-seven-13.vercel.app/",
+      "imgSrc": "https://cdn.nerdschalk.com/wp-content/uploads/2023/05/best-chatgpt-prompts-for-text-summarization-759x427.png",
+      "git":"https://github.com/Subbu1592/CHAT_GPT_SUMMARIZER"
+    },
+    {
+      "date": "29/june/2023",
+      "title": "YOUTUBE CLONE ",
+      "description": "This is a Youtube Clone Project using Youtube Rapid Api and React as frontend and MUI for styling",
+      "url": "https://youtube-clone-five-xi.vercel.app/",
+      "imgSrc": "https://i.ytimg.com/vi/FHTbsZEJspU/maxresdefault.jpg",
+      "git":"https://github.com/Subbu1592/YOUTUBE_CLONE"
+    },
+    {
+      "date": "4/july/2023",
+      "title": "PORTFOLIO  ",
+      "description": "This is Developer Portfolio using React And SCSS You can Find all my work and Projects till date and my contact Info",
+      "url": "",
+      "imgSrc": "https://repository-images.githubusercontent.com/384091706/a1614500-e03f-11eb-986a-30f6f0d4f1cc",
+      "git":"https://github.com/Subbu1592/PORTFOLIO"
+    }
+
+  ]
+}

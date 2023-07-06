@@ -1,0 +1,168 @@
+#contact {
+  min-height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  > section {
+    background-color: $color1;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+
+    > form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      > h2 {
+        text-align: center;
+        font: 100 2.7rem $text2;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        margin: 2rem;
+      }
+      .container{
+        .card{
+          z-index: 1;
+    position: relative;
+    width: 300px;
+    height:400px;
+    margin: 0 auto;
+    margin-top:100px;
+    background-color: white;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition:    all 0.7s ease-in-out;
+    -o-transition:      all 0.7s ease-in-out;
+    -ms-transition:     all 0.7s ease-in-out;
+
+
+    .photo{
+        z-index: 3;
+    position: relative;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    margin: 0 auto;
+    background-image: url("../assets//1.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    top:75px;
+    -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    -webkit-transition: top 0.7s ease-in-out, background 0.15s ease;
+    -moz-transition:    top 0.7s ease-in-out, background 0.15s ease;
+    -o-transition:      top 0.7s ease-in-out, background 0.15s ease;
+    -ms-transition:     top 0.7s ease-in-out, background 0.15s ease;
+    }
+    .banner{
+          z-index: 2;
+    position: relative;
+    margin-top: -154px;
+    width:100%;
+    height:150px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRynIe8daaXS0bwdwX8hZtf8sb-48Yk1TcIY8VIvumAvp-Rh8C5wvI8TtDm1CYsMM3v-As&usqp=CAU");
+    background-size: cover;
+    border-bottom: solid 1px lightgrey;
+  
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition:    all 0.7s ease-in-out;
+    -o-transition:      all 0.7s ease-in-out;
+    -ms-transition:     all 0.7s ease-in-out;
+    }
+    ul{
+       list-style: none;
+    text-align: center;
+    padding-left: 0;
+    margin-top:87px;
+    margin-bottom:30px;
+    font-size: 20px;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition:    all 0.7s ease-in-out;
+    -o-transition:      all 0.7s ease-in-out;
+    -ms-transition:     all 0.7s ease-in-out;
+    }
+    .contacts{
+       margin: 0 auto;
+    text-align: center;
+    margin-top: -15px;
+    width: 100%;
+    height: 35px;
+    display: block;    
+    border:none;
+    background-color: transparent;
+    font-family: inherit;
+    color: white;
+    background-color: #C7D0E1;
+    font-size:12px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition:    all 0.3s ease-in-out;
+    -o-transition:      all 0.3s ease-in-out;
+    -ms-transition:     all 0.3s ease-in-out;
+    }
+    .social-media-banner{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 20px;
+      gap: 180px;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition:    all 1.5s ease-in-out;
+    -o-transition:      all 1.5s ease-in-out;
+    -ms-transition:     all 1.5 ease-in-out;
+
+    a {
+      display: flex;    
+    font-size: 35px;
+    width: 300px;;
+    text-align: left;
+    color: #C7D0E1;
+    }
+    }
+        }
+      }
+      > input,
+      > button {
+        padding: 0.8rem;
+        width: 40%;
+        outline: none;
+        font: 400 0.9rem $text1;
+        margin: 1rem;
+        border: none;
+      }
+
+      > button {
+        cursor: pointer;
+        background-color: $color3;
+        color: $color4;
+        font: 600 1rem $text1;
+        text-transform: uppercase;
+        margin: 3rem;
+        &:hover {
+          background-color: $color3_1;
+        }
+      }
+    }
+  }
+
+  > aside {
+    width: 100%;
+    height: 100%;
+    background-color: $color5;
+    display: grid;
+    place-items: center;
+    img {
+      width: 70%;
+      height: 70%;
+      object-fit: contain;
+      filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.322)) hue-rotate(150deg);
+      animation: upupdowndown 0.7s infinite linear alternate;
+    }
+  }
+}
